@@ -30,6 +30,7 @@ ul {
 	padding: 0px;
 	border: 2px solid white;
 	margin-left: 100px; 
+	transition: all .4s linear;
 }
 
 
@@ -43,8 +44,6 @@ ul {
 ul li {
 	font-size: 16px;
 	height: 100px;
-	/* background-color: #93C47D;
-	/* margin: -10px; */
 	transition: all .1s ease-in;
 	border: 2px solid white;
 	padding: 20px;
@@ -109,10 +108,8 @@ li:last-child {
 	width: 100%;
 }
 ul:hover li {
-	/* background-color: white; */
 	opacity: 0.2;
 }
 ul li:hover  {
-	opacity: 1;
-	
+	opacity: 1;	
 } 
